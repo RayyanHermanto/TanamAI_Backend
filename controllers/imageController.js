@@ -171,8 +171,8 @@ exports.getPredictionsByTokenHandler = (request, h) => {
 
         const enrichedRows = rows.map(row => {
           const top3 = JSON.parse(row.top3);
+        
           const withDetail = top3.map(item => {
-            // Kategori diambil dari label untuk pencocokan info
             const detail = findDiseaseDetail(item.label, detectCategory(item.label));
             return {
               ...item,
@@ -181,13 +181,18 @@ exports.getPredictionsByTokenHandler = (request, h) => {
               produk: detail?.produk || []
             };
           });
-
+        
+          const host = request.headers['x-forwarded-host'] || request.info.host;
+          const protocol = request.info.protocol;
+          const imageUrl = `${protocol}://${host}/uploads/${row.image_filename}`;
+        
           return {
             ...row,
             top3: withDetail,
-            image_url: `${request.server.info.uri}/uploads/${row.image_filename}`
+            image_url: imageUrl
           };
         });
+        
 
         return resolve(h.response({
           message: 'Berhasil mengambil data prediksi berdasarkan token',
