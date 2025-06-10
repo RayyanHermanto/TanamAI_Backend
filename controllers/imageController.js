@@ -101,7 +101,7 @@ exports.predictImageHandler = async (request, h) => {
           if (err) return reject(err);
 
           if (rows.length >= 20) {
-            const toDelete = rows.slice(0, rows.length - 19); // Sisakan 19, karena 1 akan ditambahkan
+            const toDelete = rows.slice(0, rows.length - 19);
             const idsToDelete = toDelete.map(r => r.id);
             if (idsToDelete.length > 0) {
               const placeholders = idsToDelete.map(() => '?').join(',');
