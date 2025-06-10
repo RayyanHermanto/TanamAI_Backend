@@ -145,10 +145,6 @@ exports.predictImageHandler = async (request, h) => {
   } catch (err) {
     console.error(err);
     return h.response({ error: true, message: 'Gagal memproses gambar' }).code(500);
-  } finally {
-    if (fs.existsSync(filePath)) {
-      fs.unlinkSync(filePath);
-    }
   }
 };
 
@@ -183,9 +179,8 @@ exports.getPredictionsByTokenHandler = (request, h) => {
           });
         
           const host = request.headers['x-forwarded-host'] || request.info.host;
-          const protocol = request.info.protocol;
-          const imageUrl = `${protocol}://${host}/uploads/${row.image_filename}`;
-        
+          const imageUrl = `https://${host}/uploads/${filename}`;
+
           return {
             ...row,
             top3: withDetail,
