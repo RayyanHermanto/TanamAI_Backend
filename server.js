@@ -7,11 +7,9 @@ const imageRoutes = require('./routes/image');
 const init = async () => {
   const server = Hapi.server({
     port: process.env.PORT || 3000,
-    host: 'localhost',
+    host: '0.0.0.0', // BUKAN 'localhost'
     routes: {
-      cors: {
-        origin: ['*']
-      }
+      cors: true
     }
   });
 
