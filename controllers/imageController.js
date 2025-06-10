@@ -71,6 +71,10 @@ exports.predictImageHandler = async (request, h) => {
   }
 
   const filename = `${uuidv4()}.jpg`;
+  const uploadDir = path.join(__dirname, '../uploads');
+  if (!fs.existsSync(uploadDir)) {
+    fs.mkdirSync(uploadDir, { recursive: true });
+  }
   const filePath = path.join(__dirname, '../uploads', filename);
 
   try {
