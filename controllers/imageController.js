@@ -126,8 +126,8 @@ exports.predictImageHandler = async (request, h) => {
 
     // Simpan data baru
     db.run(
-      "INSERT INTO predictions (token, image_filename, top3) VALUES (?, ?, ?)",
-      [token, filename, JSON.stringify(top3)],
+      "INSERT INTO predictions (token, image_filename, top3, model_type) VALUES (?, ?, ?, ?)",
+      [token, filename, JSON.stringify(top3), modelType],
       function (err) {
         if (err) {
           console.error('❌ Gagal menyimpan prediksi:', err.message);
@@ -157,7 +157,7 @@ exports.getPredictionsByTokenHandler = (request, h) => {
 
   return new Promise((resolve) => {
     db.all(
-      "SELECT id, token, image_filename, top3, created_at FROM predictions WHERE token = ? ORDER BY created_at DESC",
+      "SELECT id, token, image_filename, top3, model_type, created_at FROM predictions WHERE token = ? ORDER BY created_at DESC",
       [token],
       (err, rows) => {
         if (err) {
@@ -167,7 +167,7 @@ exports.getPredictionsByTokenHandler = (request, h) => {
 
         const enrichedRows = rows.map(row => {
           const top3 = JSON.parse(row.top3);
-        
+
           const withDetail = top3.map(item => {
             const detail = findDiseaseDetail(item.label, detectCategory(item.label));
             return {
@@ -177,17 +177,19 @@ exports.getPredictionsByTokenHandler = (request, h) => {
               produk: detail?.produk || []
             };
           });
-        
+
           const host = request.headers['x-forwarded-host'] || request.info.host;
           const imageUrl = `https://${host}/uploads/${row.image_filename}`;
 
           return {
-            ...row,
+            id: row.id,
+            token: row.token,
+            image_url: imageUrl,
+            model_type: row.model_type, // ✅ Tambahkan ini
             top3: withDetail,
-            image_url: imageUrl
+            created_at: row.created_at
           };
         });
-        
 
         return resolve(h.response({
           message: 'Berhasil mengambil data prediksi berdasarkan token',
@@ -197,6 +199,7 @@ exports.getPredictionsByTokenHandler = (request, h) => {
     );
   });
 };
+
 
 function streamToBuffer(stream) {
   return new Promise((resolve, reject) => {
