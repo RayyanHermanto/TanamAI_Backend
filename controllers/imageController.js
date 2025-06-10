@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const { v4: uuidv4 } = require('uuid');
 const db = require('../models/predictionModel');
-const diseaseInfo = require('../data/diseaseinfo.json'); // Pastikan path benar
+const diseaseInfo = require('../data/diseaseinfo.json');
 
 const classNamesMap = {
   padi: ['Hawar Pelepah', 'Hispa', 'Busuk Leher Malai', 'Bercak Cokelat Sempit Daun', 'Luka Bakar Daun', 'Bercak Cokelat', 'Sehat', 'Blas Daun', 'Hawar Daun Bakteri'],
