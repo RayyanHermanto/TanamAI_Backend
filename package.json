@@ -1,0 +1,19 @@
+{
+    "name": "pi",
+    "version": "1.1.0",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "@hapi/hapi": "^21.3.2",
+        "@hapi/inert": "^7.0.1",
+        "@railway/cli": "^4.5.3",
+        "@tensorflow/tfjs-node": "^4.22.0",
+        "bcrypt": "^6.0.0",
+        "formidable": "^3.5.0",
+        "fs-extra": "^11.2.0",
+        "sqlite3": "^5.1.6",
+        "uuid": "^9.0.1"
+    }
+}

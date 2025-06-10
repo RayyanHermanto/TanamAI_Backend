@@ -1,0 +1,296 @@
+{
+    "klasifikasi": [
+      {
+        "kategori": "jagung",
+        "data": [
+          {
+            "nama": "Hawar Daun (Leaf Blight)",
+            "gejala": "Muncul bercak besar berbentuk oval atau seperti cerutu pada daun, warnanya hijau keabu-abuan atau coklat. Jika parah, seluruh daun bisa kering seperti terbakar.",
+            "solusi": {
+              "organik": [
+                "Tanam varietas jagung yang lebih tahan penyakit (contoh: Kalingga, Arjuna).",
+                "Lakukan gilir tanam (rotasi), jangan menanam jagung di lahan yang sama terus-menerus.",
+                "Bersihkan lahan dari sisa-sisa tanaman jagung dari musim panen sebelumnya."
+              ],
+              "anorganik": "Gunakan fungisida (obat jamur) dengan bahan aktif mankozeb atau propineb."
+            },
+            "produk": [
+              {
+                "platform": "Tokopedia",
+                "url": "https://tk.tokopedia.com/ZSkfxfWUH/"
+              },
+              {
+                "platform": "Shopee",
+                "url": "https://shopee.co.id/product/231758580/22958486863?gads_t_sig=VTJGc2RHVmtYMTlxTFVSVVRrdENkWVp3RFo3Mkw5czd4Z0hzdEF1WVFibXo5cTdtQ0hzTFQrSm54emk1VHJzRG1rdlcwKzlZWVIvSVh0SUdmbXBaQkVvaitMN2oycDNzK3FBcUdWZlJxeG15clBNbVpVZGRDQi9TN0V4b2NxOE8&gad_source=1&gad_campaignid=22178753687&gbraid=0AAAAADPpU832RUPcEgq4pUv95sYRYQqHq&gclid=EAIaIQobChMI747mqpzljQMVLqZmAh2tpwQSEAQYASABEgIePfD_BwE"
+              }
+            ],
+            "sumber": [
+              "Prasetyo, G., Ratih, S., Ivayani, I., & Akin, H. M. (2017). Efektivitas Pseudomonas fluorescens dan Paenibacillus polymyxa terhadap keparahan penyakit karat dan hawar daun serta pertumbuhan tanaman jagung manis (Zea mays var. Saccharata). Jurnal Agrotek Tropika, 5(2).",
+              "https://www.kompas.com/homey/read/2022/08/04/085600276/penyakit-hawar-daun-jagung--gejala-siklus-dan-cara-mengatasi"
+            ]
+          },
+          {
+            "nama": "Bercak Daun",
+            "gejala": "Ada bercak-bercak kecil berbentuk lonjong, berwarna coklat atau abu-abu dengan pinggiran lebih gelap. Biasanya muncul dari daun yang paling tua.",
+            "solusi": {
+              "organik": [
+                "Atur jarak tanam agar tidak terlalu dempet, supaya angin bisa masuk.",
+                "Lakukan pemupukan yang seimbang, jangan terlalu banyak pupuk nitrogen (Urea).",
+                "Coba semprot dengan fungisida alami dari ekstrak bawang putih atau daun mimba."
+              ],
+              "anorganik": "Gunakan fungisida dengan bahan aktif klorotalonil atau gabungan mankozeb dan karbendazim."
+            },
+            "produk": [
+              {
+                "platform": "Blibli",
+                "url": "https://blibli.onelink.me/GNtk/6a9ab8or"
+              },
+              {
+                "platform": "Tokopedia",
+                "url": "https://tk.tokopedia.com/ZSkfxgcT3/"
+              }
+            ],
+            "sumber": [
+              "Rosiani, U. D., Rahmad, C., Rahmawati, M. A., & Tupamahu, F. (2020). Segmentasi berbasis k-means pada deteksi citra penyakit daun tanaman jagung. Jurnal Informatika Polinema, 6(3), 37-42.",
+              "https://www.kompas.com/homey/read/2022/08/04/085600276/penyakit-hawar-daun-jagung--gejala-siklus-dan-cara-mengatasi"
+            ]
+          },
+          {
+            "nama": "Karat Daun",
+            "gejala": "Muncul bintik-bintik kecil (pustul) warna oranye-kecoklatan seperti karat di daun. Kalau digosok pakai jari, serbuk karatnya akan menempel.",
+            "solusi": {
+              "organik": [
+                "Atur jarak tanam agar tidak terlalu dempet, supaya angin bisa masuk.",
+                "Lakukan pemupukan yang seimbang, jangan terlalu banyak pupuk nitrogen (Urea).",
+                "Coba semprot dengan fungisida alami dari ekstrak bawang putih atau daun mimba."
+              ],
+              "anorganik": "Semprot dengan fungisida berbahan aktif propineb atau azoksistrobin."
+            },
+            "produk": [
+              {
+                "platform": "Blibli",
+                "url": "https://blibli.onelink.me/GNtk/rahg3wgu"
+              },
+              {
+                "platform": "Tokopedia",
+                "url": "https://tk.tokopedia.com/ZSkfQKdg6/"
+              }
+            ],
+            "sumber": [
+              "Prasetyo, G., Ratih, S., Ivayani, I., & Akin, H. M. (2017). Efektivitas Pseudomonas fluorescens dan Paenibacillus polymyxa terhadap keparahan penyakit karat dan hawar daun serta pertumbuhan tanaman jagung manis (Zea mays var. Saccharata). Jurnal Agrotek Tropika, 5(2).",
+              "https://www.kompas.com/homey/read/2022/08/04/085600276/penyakit-hawar-daun-jagung--gejala-siklus-dan-cara-mengatasi"
+            ]
+          }
+        ],
+        "langkah_awal": {
+          "judul": "Saat Anda Melihat Bercak Aneh pada Daun (Untuk Hawar Daun, Bercak Daun, Karat Daun)",
+          "langkah": [
+            {
+              "nama": "Operasi 'Petik dan Amankan'",
+              "deskripsi": "Segera ambil gunting atau pangkas daun-daun yang sudah terinfeksi paling parah. Jangan buang daun sakit ini sembarangan di tanah! Kumpulkan semua dalam satu kantong. Kenapa? Karena spora jamur dari daun itu bisa terbang dan menginfeksi tetangganya yang masih sehat. Setelah terkumpul, segera bakar atau kubur dalam-dalam jauh dari area tanam. Ini adalah langkah paling penting untuk menghentikan penyebaran."
+            },
+            {
+              "nama": "Beri Ruang untuk Bernapas",
+              "deskripsi": "Lihat sekeliling tanaman yang sakit. Apakah ia terlalu rimbun dan berdempetan dengan tanaman lain? Jamur suka sekali tempat yang lembap dan tidak ada aliran udara. Jika memungkinkan, pangkas beberapa daun bawah yang tidak terlalu penting untuk menciptakan sirkulasi udara yang lebih baik. Angin akan membantu mengeringkan permukaan daun lebih cepat setelah hujan atau penyiraman, membuat jamur tidak betah tinggal di sana."
+            },
+            {
+              "nama": "Amati Sang Pasien",
+              "deskripsi": "Setelah melakukan dua langkah di atas, amati tanaman Anda selama 1-2 hari ke depan. Apakah bercaknya berhenti menyebar? Jika ya, bagus! Jika masih muncul bercak baru, artinya Anda perlu 'jurus' yang lebih kuat. Sekarang saatnya melihat panduan utama untuk memilih antara semprotan organik atau fungisida (anorganik)."
+            }
+          ]
+        }
+      },
+      {
+        "kategori": "kentang",
+        "data": [
+          {
+            "nama": "Hawar Daun / Busuk Daun (Late Blight)",
+            "gejala": "Ada bercak basah hijau kelabu di tepi daun yang cepat membesar. Di bagian bawah daunnya, ada bulu-bulu jamur warna putih. Umbi kentang yang kena bisa ikut busuk.",
+            "solusi": {
+              "organik": [
+                "Selalu gunakan bibit kentang yang sehat dan punya sertifikat.",
+                "Jaga lahan tetap bersih dari rumput liar (gulma) dan sisa tanaman.",
+                "Pastikan saluran air lancar agar tidak ada genangan.",
+                "Lakukan gilir tanam dengan tanaman bukan keluarga kentang (misalnya kubis, sawi)."
+              ],
+              "anorganik": "Gunakan fungisida kontak dengan bahan aktif mankozeb, klorotalonil, atau propineb."
+            },
+            "produk": [
+              {
+                "platform": "Tokopedia",
+                "url": "https://tk.tokopedia.com/ZSkfCDYTj/"
+              },
+              {
+                "platform": "Blibli",
+                "url": "https://blibli.onelink.me/GNtk/o8tlnurv"
+              }
+            ],
+            "sumber": [
+              "Muliani, Y., Robana, R., & Mulyati, I. (2023). APLIKASI AGENSIA HAYATI Trichoderma harzianum Rifai. UNTUK MENEKAN Phytophthora infestans (Mont.) PENYEBAB PENYAKIT BUSUK DAUN PADA TANAMAN KENTANG (Solanum tuberosum L.). Agroscript, 5(1), 52-64.",
+              "https://www.medion.co.id/info-medion/melindungi-tanaman-kentang-dari-penyakit-busuk-daun/"
+            ]
+          },
+          {
+            "nama": "Bercak Awal / Busuk Awal (Early Blight)",
+            "gejala": "Muncul bercak-bercak kering dan gelap di daun, dengan pola lingkaran seperti sasaran tembak. Biasanya menyerang dari daun bagian bawah.",
+            "solusi": {
+              "organik": [
+                "Jaga kesehatan tanaman dengan pupuk Kalium yang cukup.",
+                "Siram tanaman di pagi hari agar daun tidak terlalu lama basah.",
+                "Petik dan buang daun yang sudah terinfeksi, lalu bakar atau kubur."
+              ],
+              "anorganik": "Gunakan fungisida dengan bahan aktif difenokonazol atau klorotalonil."
+            },
+            "produk": [
+              {
+                "platform": "Blibli",
+                "url": "https://blibli.onelink.me/GNtk/6a9ab8or"
+              },
+              {
+                "platform": "Tokopedia",
+                "url": "https://tk.tokopedia.com/ZSkfb9AKj/"
+              }
+            ],
+            "sumber": [
+              "Rosiani, U. D., Rahmad, C., Rahmawati, M. A., & Tupamahu, F. (2020). Segmentasi berbasis k-means pada deteksi citra penyakit daun tanaman jagung. Jurnal Informatika Polinema, 6(3), 37-42.",
+              "https://www.medion.co.id/info-medion/melindungi-tanaman-kentang-dari-penyakit-busuk-daun/"
+            ]
+          }
+        ],
+        "langkah_awal": {
+          "judul": "Saat Anda Melihat Bercak Aneh pada Daun (Untuk Hawar Daun, Bercak Daun, Karat Daun)",
+          "langkah": [
+            {
+              "nama": "Operasi 'Petik dan Amankan'",
+              "deskripsi": "Segera ambil gunting atau pangkas daun-daun yang sudah terinfeksi paling parah. Jangan buang daun sakit ini sembarangan di tanah! Kumpulkan semua dalam satu kantong. Kenapa? Karena spora jamur dari daun itu bisa terbang dan menginfeksi tetangganya yang masih sehat. Setelah terkumpul, segera bakar atau kubur dalam-dalam jauh dari area tanam. Ini adalah langkah paling penting untuk menghentikan penyebaran."
+            },
+            {
+              "nama": "Beri Ruang untuk Bernapas",
+              "deskripsi": "Lihat sekeliling tanaman yang sakit. Apakah ia terlalu rimbun dan berdempetan dengan tanaman lain? Jamur suka sekali tempat yang lembap dan tidak ada aliran udara. Jika memungkinkan, pangkas beberapa daun bawah yang tidak terlalu penting untuk menciptakan sirkulasi udara yang lebih baik. Angin akan membantu mengeringkan permukaan daun lebih cepat setelah hujan atau penyiraman, membuat jamur tidak betah tinggal di sana."
+            },
+            {
+              "nama": "Amati Sang Pasien",
+              "deskripsi": "Setelah melakukan dua langkah di atas, amati tanaman Anda selama 1-2 hari ke depan. Apakah bercaknya berhenti menyebar? Jika ya, bagus! Jika masih muncul bercak baru, artinya Anda perlu 'jurus' yang lebih kuat. Sekarang saatnya melihat panduan utama untuk memilih antara semprotan organik atau fungisida (anorganik)."
+            }
+          ]
+        }
+      },
+      {
+        "kategori": "Serangga Buruk (Hama)",
+        "data": [
+          {
+            "nama": "Ulat, Ngengat, Kumbang Penggerek, Belalang, Kumbang Daun",
+            "kerugian": "Mereka memakan daun, batang, dan pucuk tanaman. Akibatnya, tanaman jadi rusak, pertumbuhannya kerdil, bahkan bisa mati.",
+            "solusi": {
+              "organik": [
+                "Semprot pestisida nabati dari minyak mimba atau ekstrak tembakau.",
+                "Kalau belum banyak, bisa diambil satu per satu dengan tangan."
+              ],
+              "anorganik": "Gunakan insektisida dengan bahan aktif sipermetrin, deltametrin, atau profenofos."
+            },
+            "produk": [
+              {
+                "platform": "Tokopedia",
+                "jenis": "Organik",
+                "url": "https://tk.tokopedia.com/ZSkfgevcx/"
+              },
+              {
+                "platform": "Tokopedia",
+                "jenis": "Anorganik",
+                "url": "https://tk.tokopedia.com/ZSkfbKcum/"
+              },
+              {
+                "platform": "Blibli",
+                "jenis": "Organik",
+                "url": "https://blibli.onelink.me/GNtk/tawl1at8"
+              },
+              {
+                "platform": "Blibli",
+                "jenis": "Anorganik",
+                "url": "https://blibli.onelink.me/GNtk/b7jbx87p"
+              }
+            ],
+            "sumber": [
+              "Kuswardani, R. A. (2013). Hama Tanaman Pertanian.",
+              "https://ditjenbun.pertanian.go.id/pestisida-nabati-sebagai-solusi-pengendalian-opt-tanaman-perkebunan-ramah-lingkungan/"
+            ]
+          },
+          {
+            "nama": "Siput & Lintah Bulan",
+            "kerugian": "Sangat suka memakan daun muda dan bibit tanaman, biasanya menyerang saat malam hari.",
+            "solusi": {
+              "organik": [
+                "Taruh papan kayu di kebun, mereka akan sembunyi di bawahnya saat siang, jadi lebih mudah dikumpulkan.",
+                "Bisa juga menaburkan cangkang telur yang sudah dihancurkan di sekeliling tanaman."
+              ],
+              "anorganik": "Gunakan racun siput (moluskisida) yang mengandung bahan aktif metaldehida."
+            },
+            "produk": [
+              {
+                "platform": "Tokopedia",
+                "url": "https://tk.tokopedia.com/ZSkfgD2LM/"
+              }
+            ],
+            "sumber": [
+              "Kuswardani, R. A. (2013). Hama Tanaman Pertanian."
+            ]
+          },
+          {
+            "nama": "Semut",
+            "kerugian": "Semut jarang merusak tanaman secara langsung. Tapi mereka suka melindungi kutu daun (aphid) dari pemangsa. Kutu daun inilah yang menyedot sari tanaman dan membawa penyakit. Jadi, usir semutnya, maka kutu daun juga lebih mudah dibasmi.",
+            "solusi": {
+              "organik": [
+                "Semprotkan air sabun atau larutan cuka ke barisan semut.",
+                "Menaburkan bubuk kayu manis juga bisa membantu."
+              ],
+              "anorganik": "Beri insektisida tabur di sekitar sarang semut."
+            },
+            "produk": [
+              {
+                "platform": "Tokopedia",
+                "url": "https://tk.tokopedia.com/ZSkfgr2kd/"
+              }
+            ],
+            "sumber": [
+              "Kuswardani, R. A. (2013). Hama Tanaman Pertanian.",
+              "Soetopo, D., & INDRAYANI, I. (2015). Status Teknologi dan Prospek Beauveria bassiana Untuk Pengendalian Serangga Hama Tanaman Perkebunan. Perspektif: Review Penelitian Tanaman Industri, 6(1), 29-46."
+            ]
+          }
+        ],
+        "langkah_awal": {
+          "judul": "Saat Anda Melihat Daun Berlubang (Untuk Hama Ulat, Belalang, Kumbang)",
+          "langkah": [
+            {
+              "nama": "Langkah 1",
+              "deskripsi": "Periksa tanaman Anda dengan teliti. Balik daunnya, karena ulat sering bersembunyi di sana. Lihat ke tanah di sekitar batang, mungkin ada kumbang yang sedang bersembunyi. Jika Anda menemukannya, langsung ambil dan musnahkan. Lakukan ini di pagi atau sore hari, saat hama biasanya paling aktif."
+            },
+            {
+              "nama": "Langkah 2",
+              "deskripsi": "Lihat di sekitar tanaman Anda. Apakah banyak rumput liar (gulma) atau tumpukan daun kering? Itu adalah hotel bintang lima bagi para hama. Segera bersihkan area di sekitar tanaman Anda. Dengan membersihkan 'hotel' mereka, para hama jadi tidak punya tempat untuk bersembunyi dan berkembang biak."
+            },
+            {
+              "nama": "Langkah 3",
+              "deskripsi": "Sebagai langkah awal, Anda bisa mencoba menyemprotkan air sabun cuci piring (beberapa tetes dicampur satu liter air) ke tanaman. Hama seperti ulat tidak menyukai ini. Ini mungkin tidak membunuh semuanya, tapi cukup untuk mengganggu 'pesta makan' mereka sementara Anda menyiapkan solusi pestisida nabati atau insektisida dari panduan utama."
+            }
+          ]
+        }
+      },
+      {
+        "kategori": "Serangga Baik",
+        "data": [
+          {
+            "nama": "Lebah & Tawon",
+            "deskripsi": "Mereka adalah pahlawan penyerbukan. Tanpa mereka, bunga tidak akan menjadi buah atau biji, sehingga hasil panen bisa gagal. Beberapa jenis tawon juga memangsa ulat dan hama lainnya. Mereka adalah teman petani."
+          },
+          {
+            "nama": "Cacing Tanah",
+            "deskripsi": "Cacing tanah adalah penyubur tanah alami terbaik. Mereka membuat tanah menjadi gembur sehingga akar mudah bernapas dan menyerap air. Kotoran mereka adalah pupuk berkualitas tinggi."
+          },
+          {
+            "nama": "Capit (Earwig)",
+            "deskripsi": "Hewan ini kadang memakan daun muda, tetapi lebih sering memakan sisa-sisa organik busuk atau hama lain yang lebih kecil. Jarang menyebabkan kerusakan parah, jadi biasanya tidak perlu dibasmi secara khusus."
+          }
+        ]
+      }
+    ]
+  }
