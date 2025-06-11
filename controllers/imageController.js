@@ -172,11 +172,11 @@ exports.getPredictionsByTokenHandler = (request, h) => {
             const detail = findDiseaseDetail(item.label, detectCategory(item.label));
             return {
               ...item,
-              gejala: detail?.gejala || '-',
+              gejala: detail?.gejala || detail?.kerugian || detail?.deskripsi || '-',
               solusi: detail?.solusi || {},
               produk: detail?.produk || []
             };
-          });
+          });          
 
           const host = request.headers['x-forwarded-host'] || request.info.host;
           const imageUrl = `https://${host}/uploads/${row.image_filename}`;
