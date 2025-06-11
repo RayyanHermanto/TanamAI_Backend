@@ -61,3 +61,14 @@ exports.registerHandler = async (request, h) => {
     );
   });
 };
+
+exports.getAllUsersHandler = async (request, h) => {
+  return new Promise((resolve) => {
+    db.all("SELECT id, name, email, password, plain_password FROM users", [], (err, rows) => {
+      if (err) {
+        return resolve(h.response({ error: true, message: 'Gagal mengambil data users' }).code(500));
+      }
+      return resolve(h.response({ users: rows }).code(200));
+    });
+  });
+};

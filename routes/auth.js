@@ -15,6 +15,11 @@ const authRoutes = [
     path: '/register',
     handler: registerHandler,
   },
+  {
+    method: 'GET',
+    path: '/users',
+    handler: getAllUsersHandler,
+  }
 ];
 
 module.exports = authRoutes;
