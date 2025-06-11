@@ -176,6 +176,211 @@
         }
       },
       {
+        "kategori":"padi",
+        "data": [
+          {
+            "nama": "Bercak coklat",
+            "gejala": "Terdapat bercak-bercak coklat pada daun, yang berukuran kecil hingga sedang, biasanya dengan pinggiran berwarna lebih gelap. Bercak ini cenderung muncul pada daun tua dan dapat menyebar dengan cepat pada kondisi kelembaban tinggi.",
+            "solusi": {
+              "organik": [
+                "Menjaga kelembaban tanah dengan cara menyiram secara teratur tanpa membuat tanah tergenang.",
+                "Gunakan ekstrak daun mimba atau bawang putih untuk disemprotkan ke bagian yang terkena."
+              ],
+              "anorganik": "Menggunakan fungisida berbahan aktif klorotalonil atau propikonazol untuk membasmi jamur penyebab penyakit."
+            },
+            "produk": [
+              {
+                "platform": "Shopee",
+                "url": "https://shopee.co.id/Agronil-75Wp-Klorotalonil-75-Kontrol-Penyakit-Bercak-Daun-i.289238863.26518179598?sp_atk=5dbf59e8-90d6-416f-9c5a-483475ccaad9&xptdk=5dbf59e8-90d6-416f-9c5a-483475ccaad9"
+              },
+              {
+                "platform": "Tokopedia",
+                "url": "https://tk.tokopedia.com/ZSkaLTWB9/"
+              }
+            ],
+            "sumber": [
+              "https://plantix.net/id/library/plant-diseases/100064/brown-spot-of-rice/",
+              "https://distan.bulelengkab.go.id/informasi/detail/artikel/penyakit-bercak-daun-cercospora-pada-tanaman-padi-dan-cara-pengendaliannya-24"
+            ]
+          },
+          {
+            "nama": "Hawar Daun Bakteri",
+            "gejala": "Daun padi akan menunjukkan bercak-bercak kuning yang kemudian berubah menjadi coklat kehitaman dengan pinggiran yang tumpul. Penyebaran dapat berlangsung dengan cepat melalui air hujan atau angin.",
+            "solusi": {
+              "organik": [
+                "Menggunakan ekstrak daun pepaya untuk disemprotkan pada tanaman yang terinfeksi.",
+                "Coba untuk mengurangi kelembaban tanah dengan sistem drainase yang baik."
+              ],
+              "anorganik": "Penggunaan bakteri antagonis seperti Pseudomonas fluorescens dapat membantu mengendalikan penyakit ini."
+            },
+            "produk": [
+              {
+                "platform": "Shopee",
+                "url": "https://shopee.co.id/Pseudomonas-Fluorescens-Pupuk-Hayati-Tunggal-1L-i.142667456.29182438685?sp_atk=a6546a52-65a9-4a46-8e4a-e0caa80d75fb&xptdk=a6546a52-65a9-4a46-8e4a-e0caa80d75fb"
+              },
+              {
+                "platform": "Tokopedia",
+                "url": "https://tk.tokopedia.com/ZSkaLwupB/"
+              }
+            ],
+            "sumber": [
+              "https://nufarm.com/id/pengendalian_penyakit_kresek/",
+              "https://distan.bulelengkab.go.id/informasi/detail/artikel/55_penyakit-hawar-daun-bakteri-pada-tanaman-padi"
+            ]
+          },
+          {
+            "nama": "Blas Daun",
+            "gejala": "Terlihat bercak-bercak kecil yang berwarna hijau kekuningan atau coklat pada daun padi. Bercak ini biasanya berkembang di daerah tengah hingga tepi daun, dengan bentuk memanjang.",
+            "solusi": {
+              "organik": [
+                "Pemupukan yang seimbang, hindari pemberian nitrogen berlebih.",
+                "Gunakan tanaman penutup tanah untuk mencegah penyebaran spora jamur."
+              ],
+              "anorganik": "Penggunaan fungisida berbahan aktif metil tiofanat atau metalaksil dapat membantu mengendalikan blas daun."
+            },
+            "produk": [
+              {
+                "platform": "Shopee",
+                "url": "https://shopee.co.id/TOPSIDA-400-Gram-Metil-Tiofanat-75WP-i.936498137.22226743614?sp_atk=c61604c7-952b-421d-bcaf-05792c3878fe&xptdk=c61604c7-952b-421d-bcaf-05792c3878fe"
+              },
+              {
+                "platform": "Tokopedia",
+                "url": "https://tk.tokopedia.com/ZSkaNFBML/"
+              }
+            ],
+            "sumber": [
+              "https://distan.bulelengkab.go.id/informasi/detail/artikel/85_penyakit-blas-pyricularia-oryzae-pada-tanaman-padi#:~:text=Penyakit%20blas%20adalah%20penyakit%20bercak,juga%20menyerang%20tanaman%20padi%20sawah.",
+              "https://dkpp.seruyankab.go.id/pengendalian-penyakit-blas-pada-tanaman-padi/"
+            ]
+          },
+          {
+            "nama": "Bercak Coklat Sempit Daun",
+            "gejala": "Ciri utama penyakit ini adalah bercak coklat yang sempit dan memanjang pada daun padi, biasanya terjadi pada daun yang lebih tua.",
+            "solusi": {
+              "organik": [
+                "Melakukan rotasi tanaman dengan tanaman yang tidak terinfeksi untuk memutuskan siklus penyakit.",
+                "Pemangkasan daun-daun yang terinfeksi agar penyebaran tidak meluas."
+              ],
+              "anorganik": "Fungisida berbahan aktif trikodermina atau karbendazim dapat digunakan untuk mengendalikan penyakit ini."
+            },
+            "produk": [
+              {
+                "platform": "Blibli",
+                "url": "https://www.blibli.com/p/bio-fungisida-organik-trichoderma-marfu-p-isi-1-kg-trikoderma-tricoderma-pembasmi-jamur/ps--HIP-70020-00352?ds=HIP-70020-00352-00001&source=SEARCH&sid=ca8f51c005fed4a8&cnc=false&pickupPointCode=PP-3188111&pid1=HIP-70020-00352"
+              },
+              {
+                "platform": "Shopee",
+                "url": "https://shopee.co.id/Bisatani-Pengendali-Busuk-Tanaman-TRICHOBIO-Bio-Fungisida-Trichoderma-Mengatasi-Busuk-Tanaman-i.607235258.19069801129?sp_atk=51d740eb-af29-42d3-9b02-2b10d8c2e4e5&xptdk=51d740eb-af29-42d3-9b02-2b10d8c2e4e5"
+              }
+            ],
+            "sumber": [
+              "https://agribisnis.uma.ac.id/2023/01/09/penyakit-pada-tanaman-padi/#:~:text=Penyakit%20bercak%20coklat%20sempit%20disebabkan,menurunkan%20produksi%20padi%20hingga%2040%25.",
+              "https://plantix.net/id/library/plant-diseases/100183/narrow-brown-leaf-spot-of-rice/"
+            ]
+          },
+          {
+            "nama": "Luka Bakar Daun",
+            "gejala": "Daun padi akan terlihat terbakar dengan bercak berwarna coklat kemerahan yang meluas dan seringkali memiliki tepian yang terbakar.",
+            "solusi": {
+              "organik": [
+                "Cobalah menggunakan pupuk organik untuk menjaga keseimbangan nutrisi tanah dan menghindari pemberian pupuk nitrogen berlebihan.",
+                "Menjaga kelembaban tanah dengan menyiram secara teratur."
+              ],
+              "anorganik": "Gunakan fungisida berbahan aktif oksikonazol atau propikonazol untuk membatasi infeksi jamur."
+            },
+            "produk": [
+              {
+                "platform": "Shopee",
+                "url": "https://shopee.co.id/nicazole-510ec-prokloraz-propikonazole-alternatif-remazole-P-i.1437659779.27972799792?sp_atk=6fd932d2-7078-4e42-b7b0-e922d9264add&xptdk=6fd932d2-7078-4e42-b7b0-e922d9264add"
+              },
+              {
+                "platform": "Tokopedia",
+                "url": "https://tk.tokopedia.com/ZSkaNAcTm/"
+              }
+            ],
+            "sumber": [
+              "https://distan.bulelengkab.go.id/informasi/detail/artikel/55_penyakit-hawar-daun-bakteri-pada-tanaman-padi",
+              "https://bbpplembang.bppsdmp.pertanian.go.id/publikasi-detail/1145"
+            ]
+          },
+          {
+            "nama": "Hawar Pelepah",
+            "gejala": "Daun dan pelepah padi akan terlihat kuning kecoklatan dengan bercak-bercak yang dapat meluas. Penyakit ini biasanya menyerang bagian bawah tanaman.",
+            "solusi": {
+              "organik": [
+                "Menggunakan pupuk kandang dan menghindari pemupukan berlebihan dengan pupuk kimia.",
+                "Penyemprotan dengan ekstrak daun pepaya atau bawang putih."
+              ],
+              "anorganik": "Penggunaan fungisida berbahan aktif mankozeb atau karbendazim untuk mengurangi penyebaran."
+            },
+            "produk": [
+              {
+                "platform": "Shopee",
+                "url": "https://shopee.co.id/Fungisida-YooZeb-82-WP(Biru)-500gr-ba.mankozeb-biru-82--i.146018205.12609355565?sp_atk=011ecc6d-8c75-4939-a8be-ed0bd32431f0&xptdk=011ecc6d-8c75-4939-a8be-ed0bd32431f0"
+              },
+              {
+                "platform": "Tokopedia",
+                "url": "https://tk.tokopedia.com/ZSkaNEHJ1/"
+              }
+            ],
+            "sumber": [
+              "https://plantix.net/id/library/plant-diseases/100080/rice-sheath-blight/",
+              "https://repository.pertanian.go.id/items/d42bc005-e9b5-4f83-83de-b0c45e3069ef"
+            ]
+          },
+          {
+            "nama": "Busuk Leher Malai",
+            "gejala": "Penyakit ini menyebabkan busuk pada bagian leher malai, dengan gejala berupa perubahan warna pada bagian malai yang akhirnya mati.",
+            "solusi": {
+              "organik": [
+                "Menggunakan larutan pupuk organik cair untuk meningkatkan kekebalan tanaman.",
+                "Rotasi tanaman dengan tanaman yang tidak terinfeksi."
+              ],
+              "anorganik": "Penggunaan fungisida berbahan aktif metalaksil atau mankozeb dapat digunakan untuk mengendalikan busuk leher malai."
+            },
+            "produk": [
+              {
+                "platform": "Shopee",
+                "url": "https://shopee.co.id/FUNGISIDA-REDSIL-METALAKSIL-PLUS-ZINK-CEGAH-LAYU-TANAMAN-DAN-BUSUK-BATANG-i.264884516.22979919992?sp_atk=12bd2f1b-bd34-4c15-bd32-a680669fc9fe&xptdk=12bd2f1b-bd34-4c15-bd32-a680669fc9fe"
+              },
+              {
+                "platform": "Tokopedia",
+                "url": "https://tk.tokopedia.com/ZSkaFj4hN/"
+              }
+            ],
+            "sumber": [
+              "https://nufarm.com/id/penyakit-blast/",
+              "https://dkpp.seruyankab.go.id/pengendalian-penyakit-blas-pada-tanaman-padi/"
+            ]
+          },
+          {
+            "nama": "Hispa",
+            "gejala": "Serangan hama ini menyebabkan kerusakan pada daun padi dengan bercak-bercak yang berwarna perak atau keputihan akibat kerusakan oleh larva.",
+            "solusi": {
+              "organik": [
+                "Gunakan insektisida alami dari daun sirsak atau daun nimba.",
+                "Cobalah untuk meningkatkan populasi predator alami seperti burung atau serangga pemangsa hama."
+              ],
+              "anorganik": "Penggunaan insektisida berbahan aktif imidakloprid atau klorfenapir untuk mengendalikan hama hispa."
+            },
+            "produk": [
+              {
+                "platform": "Shopee",
+                "url": "https://shopee.co.id/Insektisida-Imidakloprid-70-Efektif-untuk-Pembasmi-Hama-Kutu-Kebul-i.5008846.16099549779?sp_atk=4595d9d8-1ad6-4a11-86ad-0fc69ec0859f&xptdk=4595d9d8-1ad6-4a11-86ad-0fc69ec0859f"
+              },
+              {
+                "platform": "Tokopedia",
+                "url": "https://tk.tokopedia.com/ZSkaNTp9L/"
+              }
+            ],
+            "sumber": [
+              "https://plantix.net/id/library/plant-diseases/600098/rice-hispa/",
+              "https://repository.uksw.edu/handle/123456789/32147"
+            ]
+          }                          
+        ]
+      },
+      {
         "kategori": "Serangga Buruk (Hama)",
         "data": [
           {
