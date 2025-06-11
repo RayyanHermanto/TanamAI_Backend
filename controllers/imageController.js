@@ -174,7 +174,8 @@ exports.getPredictionsByTokenHandler = (request, h) => {
               ...item,
               gejala: detail?.gejala || detail?.kerugian || detail?.deskripsi || '-',
               solusi: detail?.solusi || {},
-              produk: detail?.produk || []
+              produk: detail?.produk || [],
+              type: detail?.tipe || ''
             };
           });          
 

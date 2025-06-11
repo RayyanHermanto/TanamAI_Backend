@@ -4,8 +4,9 @@
         "kategori": "jagung",
         "data": [
           {
-            "nama": "Hawar Daun (Leaf Blight)",
+            "nama": "Hawar Daun",
             "gejala": "Muncul bercak besar berbentuk oval atau seperti cerutu pada daun, warnanya hijau keabu-abuan atau coklat. Jika parah, seluruh daun bisa kering seperti terbakar.",
+            "tipe" :  "Gejala",
             "solusi": {
               "organik": [
                 "Tanam varietas jagung yang lebih tahan penyakit (contoh: Kalingga, Arjuna).",
@@ -32,6 +33,7 @@
           {
             "nama": "Bercak Daun",
             "gejala": "Ada bercak-bercak kecil berbentuk lonjong, berwarna coklat atau abu-abu dengan pinggiran lebih gelap. Biasanya muncul dari daun yang paling tua.",
+            "tipe": "Gejala",
             "solusi": {
               "organik": [
                 "Atur jarak tanam agar tidak terlalu dempet, supaya angin bisa masuk.",
@@ -58,6 +60,7 @@
           {
             "nama": "Karat Daun",
             "gejala": "Muncul bintik-bintik kecil (pustul) warna oranye-kecoklatan seperti karat di daun. Kalau digosok pakai jari, serbuk karatnya akan menempel.",
+            "tipe": "Gejala",
             "solusi": {
               "organik": [
                 "Atur jarak tanam agar tidak terlalu dempet, supaya angin bisa masuk.",
@@ -104,8 +107,9 @@
         "kategori": "kentang",
         "data": [
           {
-            "nama": "Hawar Daun / Busuk Daun (Late Blight)",
+            "nama": "Hawar Daun",
             "gejala": "Ada bercak basah hijau kelabu di tepi daun yang cepat membesar. Di bagian bawah daunnya, ada bulu-bulu jamur warna putih. Umbi kentang yang kena bisa ikut busuk.",
+            "tipe": "Gejala",
             "solusi": {
               "organik": [
                 "Selalu gunakan bibit kentang yang sehat dan punya sertifikat.",
@@ -131,8 +135,9 @@
             ]
           },
           {
-            "nama": "Bercak Awal / Busuk Awal (Early Blight)",
+            "nama": "Blas Awal",
             "gejala": "Muncul bercak-bercak kering dan gelap di daun, dengan pola lingkaran seperti sasaran tembak. Biasanya menyerang dari daun bagian bawah.",
+            "tipe": "Gejala",
             "solusi": {
               "organik": [
                 "Jaga kesehatan tanaman dengan pupuk Kalium yang cukup.",
@@ -181,6 +186,7 @@
           {
             "nama": "Bercak Cokelat",
             "gejala": "Terdapat bercak-bercak coklat pada daun, yang berukuran kecil hingga sedang, biasanya dengan pinggiran berwarna lebih gelap. Bercak ini cenderung muncul pada daun tua dan dapat menyebar dengan cepat pada kondisi kelembaban tinggi.",
+            "tipe": "Gejala",
             "solusi": {
               "organik": [
                 "Menjaga kelembaban tanah dengan cara menyiram secara teratur tanpa membuat tanah tergenang.",
@@ -206,6 +212,7 @@
           {
             "nama": "Hawar Daun Bakteri",
             "gejala": "Daun padi akan menunjukkan bercak-bercak kuning yang kemudian berubah menjadi coklat kehitaman dengan pinggiran yang tumpul. Penyebaran dapat berlangsung dengan cepat melalui air hujan atau angin.",
+            "tipe": "Gejala",
             "solusi": {
               "organik": [
                 "Menggunakan ekstrak daun pepaya untuk disemprotkan pada tanaman yang terinfeksi.",
@@ -231,6 +238,7 @@
           {
             "nama": "Blas Daun",
             "gejala": "Terlihat bercak-bercak kecil yang berwarna hijau kekuningan atau coklat pada daun padi. Bercak ini biasanya berkembang di daerah tengah hingga tepi daun, dengan bentuk memanjang.",
+            "tipe": "Gejala",
             "solusi": {
               "organik": [
                 "Pemupukan yang seimbang, hindari pemberian nitrogen berlebih.",
@@ -254,8 +262,9 @@
             ]
           },
           {
-            "nama": "Bercak Coklat Sempit Daun",
+            "nama": "Bercak Cokelat Sempit Daun",
             "gejala": "Ciri utama penyakit ini adalah bercak coklat yang sempit dan memanjang pada daun padi, biasanya terjadi pada daun yang lebih tua.",
+            "tipe": "Gejala",
             "solusi": {
               "organik": [
                 "Melakukan rotasi tanaman dengan tanaman yang tidak terinfeksi untuk memutuskan siklus penyakit.",
@@ -281,6 +290,7 @@
           {
             "nama": "Luka Bakar Daun",
             "gejala": "Daun padi akan terlihat terbakar dengan bercak berwarna coklat kemerahan yang meluas dan seringkali memiliki tepian yang terbakar.",
+            "tipe": "Gejala",
             "solusi": {
               "organik": [
                 "Cobalah menggunakan pupuk organik untuk menjaga keseimbangan nutrisi tanah dan menghindari pemberian pupuk nitrogen berlebihan.",
@@ -306,6 +316,7 @@
           {
             "nama": "Hawar Pelepah",
             "gejala": "Daun dan pelepah padi akan terlihat kuning kecoklatan dengan bercak-bercak yang dapat meluas. Penyakit ini biasanya menyerang bagian bawah tanaman.",
+            "tipe": "Gejala",
             "solusi": {
               "organik": [
                 "Menggunakan pupuk kandang dan menghindari pemupukan berlebihan dengan pupuk kimia.",
@@ -331,6 +342,7 @@
           {
             "nama": "Busuk Leher Malai",
             "gejala": "Penyakit ini menyebabkan busuk pada bagian leher malai, dengan gejala berupa perubahan warna pada bagian malai yang akhirnya mati.",
+            "tipe": "Gejala",
             "solusi": {
               "organik": [
                 "Menggunakan larutan pupuk organik cair untuk meningkatkan kekebalan tanaman.",
@@ -356,6 +368,7 @@
           {
             "nama": "Hispa",
             "gejala": "Serangan hama ini menyebabkan kerusakan pada daun padi dengan bercak-bercak yang berwarna perak atau keputihan akibat kerusakan oleh larva.",
+            "tipe": "Gejala",
             "solusi": {
               "organik": [
                 "Gunakan insektisida alami dari daun sirsak atau daun nimba.",
@@ -385,6 +398,7 @@
         "data": [
           {
             "nama": "Ulat, Ngengat, Kumbang Penggerek, Belalang, Kumbang Daun",
+            "tipe": "Kerugian",
             "kerugian": "Mereka memakan daun, batang, dan pucuk tanaman. Akibatnya, tanaman jadi rusak, pertumbuhannya kerdil, bahkan bisa mati.",
             "solusi": {
               "organik": [
@@ -422,6 +436,7 @@
           },
           {
             "nama": "Siput & Lintah Bulan",
+            "tipe": "Kerugian",
             "kerugian": "Sangat suka memakan daun muda dan bibit tanaman, biasanya menyerang saat malam hari.",
             "solusi": {
               "organik": [
@@ -442,6 +457,7 @@
           },
           {
             "nama": "Semut",
+            "tipe": "Kerugian",
             "kerugian": "Semut jarang merusak tanaman secara langsung. Tapi mereka suka melindungi kutu daun (aphid) dari pemangsa. Kutu daun inilah yang menyedot sari tanaman dan membawa penyakit. Jadi, usir semutnya, maka kutu daun juga lebih mudah dibasmi.",
             "solusi": {
               "organik": [
@@ -485,14 +501,17 @@
         "data": [
           {
             "nama": "Lebah & Tawon",
+            "tipe": "Deskripsi",
             "deskripsi": "Mereka adalah pahlawan penyerbukan. Tanpa mereka, bunga tidak akan menjadi buah atau biji, sehingga hasil panen bisa gagal. Beberapa jenis tawon juga memangsa ulat dan hama lainnya. Mereka adalah teman petani."
           },
           {
             "nama": "Cacing Tanah",
+            "tipe": "Deskripsi",
             "deskripsi": "Cacing tanah adalah penyubur tanah alami terbaik. Mereka membuat tanah menjadi gembur sehingga akar mudah bernapas dan menyerap air. Kotoran mereka adalah pupuk berkualitas tinggi."
           },
           {
             "nama": "Capit (Earwig)",
+            "tipe": "Deskripsi",
             "deskripsi": "Hewan ini kadang memakan daun muda, tetapi lebih sering memakan sisa-sisa organik busuk atau hama lain yang lebih kecil. Jarang menyebabkan kerusakan parah, jadi biasanya tidak perlu dibasmi secara khusus."
           }
         ]
