@@ -7,11 +7,12 @@ const imageRoutes = require('./routes/image');
 const init = async () => {
   const server = Hapi.server({
     port: process.env.PORT || 3000,
-    host: '0.0.0.0', // BUKAN 'localhost'
+    host: 'localhost', // sekarang pakai localhost
     routes: {
       cors: true
     }
   });
+
 
   // Register Inert untuk melayani file statis
   await server.register(Inert);

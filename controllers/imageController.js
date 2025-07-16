@@ -180,7 +180,7 @@ exports.getPredictionsByTokenHandler = (request, h) => {
           });          
 
           const host = request.headers['x-forwarded-host'] || request.info.host;
-          const imageUrl = `https://${host}/uploads/${row.image_filename}`;
+          const imageUrl = `http://${host}/uploads/${row.image_filename}`;
 
           return {
             id: row.id,
