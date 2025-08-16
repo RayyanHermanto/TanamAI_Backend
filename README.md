@@ -1,53 +1,54 @@
 # TanamAI_Backend
 
-**TanamAI_Backend** adalah backend berbasis **Node.js** dengan framework **Hapi**, yang menyediakan REST API untuk deteksi hama tanaman menggunakan model **TensorFlow**. Kamu dapat mengirimkan gambar tanaman lalu mendapatkan prediksi jenis hama yang terdeteksi.
+**TanamAI_Backend** is a backend built with **Node.js** and the **Hapi** framework, providing a REST API for plant pest detection using a **TensorFlow** model.  
+You can send plant images and receive predictions of detected pests.
 
 ---
 
-## 🚀 Fitur Utama
+## 🚀 Key Features
 
-- **REST API** dengan Hapi untuk memudahkan integrasi frontend atau aplikasi lainnya.
-- **Model deteksi hama** berbasis TensorFlow, menerima input gambar dan memberikan output jenis hama yang terdeteksi.
-- Penanganan upload gambar secara aman dan efisien.
-- Output prediksi dalam format JSON yang siap digunakan di UI atau analytics.
-
----
-
-## 📋 Persyaratan
-
-Pastikan telah terinstal:
-
-- [Node.js](https://nodejs.org/) (v16+ direkomendasikan)  
-- [npm](https://www.npmjs.com/) atau [Yarn](https://yarnpkg.com/)  
-- Model TensorFlow terlatih (file `.pb`, `.h5`, atau format lainnya yang digunakan dalam repo kamu)  
-- Akses ke direktori model dan dependencies lainnya sesuai konfigurasi repo kamu
+- **REST API** built with Hapi, easy to integrate with frontend or other applications.  
+- **Pest detection model** powered by TensorFlow, accepts image input and returns detected pests.  
+- Secure and efficient image upload handling.  
+- JSON-formatted prediction output, ready to be used in UI or analytics.  
 
 ---
 
-## ⚙️ Instalasi
+## 📋 Requirements
 
-1. Kloning repositori:
+Make sure you have installed:
+
+- [Node.js](https://nodejs.org/) (v16+ recommended)  
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)  
+- A trained TensorFlow model (e.g., `.pb`, `.h5`, or other formats used in this repo)  
+- Access to the model directory and any other required dependencies  
+
+---
+
+## ⚙️ Installation
+
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/RayyanHermanto/TanamAI_Backend.git
    cd TanamAI_Backend
    ```
 
-2. Instal dependency:
+2. Install dependencies:
 
    ```bash
    npm install
-   # atau
+   # or
    yarn install
    ```
 
-3. Siapkan model TensorFlow di dalam folder yang sesuai (contohnya: `models/`) dan pastikan file model tersedia sebelum aplikasi dijalankan.
+3. Place your TensorFlow model in the proper folder (e.g., `models/`) and ensure the file is available before starting the application.  
 
 ---
 
-## 🔧 Konfigurasi
+## 🔧 Configuration
 
-Tambahkan file konfigurasi (misalnya `config.js` atau `.env`) untuk pengaturan seperti:
+Add a configuration file (e.g., `config.js` or `.env`) for settings such as:
 
 ```bash
 PORT=3000
@@ -57,36 +58,36 @@ MAX_UPLOAD_SIZE=5mb
 
 ---
 
-## ▶️ Menjalankan Aplikasi
+## ▶️ Running the Application
 
-Setelah instalasi dan konfigurasi selesai:
+After installation and configuration:
 
 ```bash
 npm start
-# atau untuk pengembangan dengan nodemon
+# or for development with nodemon
 npm run dev
 ```
 
-Aplikasi Hapi akan berjalan di alamat `http://localhost:<PORT>` (default `3000`).
+The Hapi server will run at `http://localhost:<PORT>` (default `3000`).  
 
 ---
 
-## 📡 Endpoints API
+## 📡 API Endpoints
 
-| Endpoint           | Method | Deskripsi                                   |
-|-------------------|--------|----------------------------------------------|
-| `/health`         | GET    | Mengecek status server (should return "OK") |
-| `/detect`         | POST   | Upload gambar dan dapatkan hasil deteksi hama |
-| `/models/info`    | GET    | Mendapatkan info model (opsional)            |
+| Endpoint        | Method | Description                                |
+|-----------------|--------|--------------------------------------------|
+| `/health`       | GET    | Check server status (should return "OK")   |
+| `/detect`       | POST   | Upload an image and get pest detection result |
+| `/models/info`  | GET    | Retrieve model information (optional)      |
 
-### Contoh Request ke `/detect`
+### Example Request to `/detect`
 
 ```bash
 curl -X POST http://localhost:3000/detect \
   -F "image=@/path/to/plant_image.jpg"
 ```
 
-### Contoh Response
+### Example Response
 
 ```json
 {
@@ -102,19 +103,9 @@ curl -X POST http://localhost:3000/detect \
 
 ---
 
-## 🤝 Kontribusi
 
-Kontribusi sangat disambut! Caranya:
 
-1. Fork repository ini  
-2. Buat branch baru (`git checkout -b feature/your-feature`)  
-3. Lakukan perubahan dan commit (`git commit -m "Add feature"`)  
-4. Push ke branch (`git push origin feature/your-feature`)  
-5. Buka Pull Request dan jelaskan perubahanmu
-
----
-
-## 📄 Lisensi
+## 📄 License
 
 © 2025 Rayyan Hermanto  
 Licensed under the MIT License.
