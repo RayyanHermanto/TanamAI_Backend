@@ -7,12 +7,20 @@ const imageRoutes = require('./routes/image');
 const init = async () => {
   const server = Hapi.server({
     port: process.env.PORT || 3000,
-    host: 'localhost', // sekarang pakai localhost
+    host: '0.0.0.0', // supaya bisa diakses publik di Railway
     routes: {
-      cors: true
+      cors: {
+        origin: [
+          'http://localhost:5000',       // untuk dev
+          'https://rayyanhermanto.github.io' // untuk frontend di GitHub Pages
+        ],
+        additionalHeaders: [
+          'cache-control', 'x-requested-with'
+        ],
+        credentials: true // kalau pakai cookie/JWT di header Authorization
+      }
     }
   });
-
 
   // Register Inert untuk melayani file statis
   await server.register(Inert);
