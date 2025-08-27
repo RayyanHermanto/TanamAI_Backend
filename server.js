@@ -12,7 +12,8 @@ const init = async () => {
       cors: {
         origin: [
           'http://localhost:5000',       // untuk dev
-          'https://rayyanhermanto.github.io' // untuk frontend di GitHub Pages
+          'https://rayyanhermanto.github.io',
+          'tatangwarianta.github.io'
         ],
         additionalHeaders: [
           'cache-control', 'x-requested-with'
