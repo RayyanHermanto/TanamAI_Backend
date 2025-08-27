@@ -13,7 +13,7 @@ const init = async () => {
         origin: [
           'http://localhost:5000',       // untuk dev
           'https://rayyanhermanto.github.io',
-          'tatangwarianta.github.io'
+          'https://tatangwarianta.github.io'
         ],
         additionalHeaders: [
           'cache-control', 'x-requested-with'
